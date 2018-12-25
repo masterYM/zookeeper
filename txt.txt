@@ -1,0 +1,26 @@
+
+
+
+org.apache.zookeeper.server.quorum.QuorumPeerMain.main
+  >org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun
+   >org.apache.zookeeper.server.quorum.QuorumPeerConfig.parse //解析ｚｏｏ．ｃｆｇ文件内容加载到内存中
+    >org.apache.zookeeper.server.quorum.QuorumPeerMain.runFromConfig  启动准备工作
+    　>org.apache.zookeeper.server.quorum.QuorumPeer　创建QuorumPeer对象
+    　　>org.apache.zookeeper.server.quorum.QuorumPeer.start　１、加载数据库 2、网络建立启动 3、leader选举
+
+
+1加载数据库
+
+2、网络建立启动
+org.apache.zookeeper.server.ServerCnxnFactory.start   nio和netty两个factnroy
+org.apache.zookeeper.server.NIOServerCnxnFactory.start
+
+3、leader选举
+
+
+
+
+
+
+ > org.apache.zookeeper.server.ZooKeeperServerMain.main 单机模式走：/org/apache/zookeeper/server/quorum/QuorumPeerMain.java:116
+    　　
