@@ -6,11 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="zk-service-admin" />
+        <module name="zk-service-consumer" />
+        <module name="zk-service-provider" />
+        <module name="zk-service-register" />
         <module name="zookeeper" />
+        <module name="zookeeper01" />
+        <module name="zookeeper02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="tuling-zk-service" target="1.8" />
+      <module name="zk-service-admin" target="1.8" />
+      <module name="zk-service-consumer" target="1.8" />
+      <module name="zk-service-provider" target="1.8" />
+      <module name="zk-service-register" target="1.8" />
       <module name="zookeeper" target="1.8" />
+      <module name="zookeeper01" target="1.8" />
+      <module name="zookeeper02" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

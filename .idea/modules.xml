@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tuling-zk-service/tuling-zk-service.iml" filepath="$PROJECT_DIR$/tuling-zk-service/tuling-zk-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-zk-service/zk-service-admin/zk-service-admin.iml" filepath="$PROJECT_DIR$/tuling-zk-service/zk-service-admin/zk-service-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-zk-service/zk-service-consumer/zk-service-consumer.iml" filepath="$PROJECT_DIR$/tuling-zk-service/zk-service-consumer/zk-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-zk-service/zk-service-provider/zk-service-provider.iml" filepath="$PROJECT_DIR$/tuling-zk-service/zk-service-provider/zk-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-zk-service/zk-service-register/zk-service-register.iml" filepath="$PROJECT_DIR$/tuling-zk-service/zk-service-register/zk-service-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper.iml" filepath="$PROJECT_DIR$/zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper01/zookeeper01.iml" filepath="$PROJECT_DIR$/zookeeper01/zookeeper01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper02/zookeeper02.iml" filepath="$PROJECT_DIR$/zookeeper02/zookeeper02.iml" />
+    </modules>
+  </component>
+</project>
