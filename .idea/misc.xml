@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/zookeeper01/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper02/pom.xml" />
         <option value="$PROJECT_DIR$/tuling-zk-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper03/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper04/pom.xml" />
       </list>
     </option>
   </component>

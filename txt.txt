@@ -1,3 +1,4 @@
+#systemctl stop firewalld # 临时关闭防火墙
 sh zkServer.sh status
 
 sh zkCli.sh -server 192.168.137.60:2180,192.168.137.62:2180,192.168.137.61:2180

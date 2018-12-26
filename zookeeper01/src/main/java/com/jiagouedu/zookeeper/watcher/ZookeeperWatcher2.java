@@ -1,26 +1,10 @@
-package com.jiagouedu.zookeeper.watcher;/* ━━━━━━如来保佑━━━━━━
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　　　　　　┣┓
- * 　　　　┃　　　　　　　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- * ━━━━━━永无BUG━━━━━━
- * 图灵学院-悟空老师
- * 以往视频加小乔老师QQ：895900009
- * 悟空老师QQ：245553999
- */
+package com.jiagouedu.zookeeper.watcher;
 
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.Stat;
 
 public class ZookeeperWatcher2 implements Watcher {
-   private String connectString="192.168.0.31:2181,192.168.0.32:2181,192.168.0.33:2181";
+   private String connectString="192.168.137.60:2180,192.168.137.62:2180,192.168.137.61:2180";
 
    private ZooKeeper zookeeper;
 

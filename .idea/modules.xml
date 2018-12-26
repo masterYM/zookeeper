@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/zookeeper.iml" filepath="$PROJECT_DIR$/zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper01/zookeeper01.iml" filepath="$PROJECT_DIR$/zookeeper01/zookeeper01.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper02/zookeeper02.iml" filepath="$PROJECT_DIR$/zookeeper02/zookeeper02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper03/zookeeper03.iml" filepath="$PROJECT_DIR$/zookeeper03/zookeeper03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper04/zookeeper04.iml" filepath="$PROJECT_DIR$/zookeeper04/zookeeper04.iml" />
     </modules>
   </component>
 </project>
